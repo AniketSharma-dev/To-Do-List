@@ -1,0 +1,16 @@
+table {
+    table-layout: fixed; /* Ensures columns take up equal width */
+    width: 100%; /* Full-width table */
+  }
+
+  table th,
+  table td {
+    word-wrap: break-word; /* Ensures text wraps within the cell */
+    word-break: break-word; /* Breaks words at arbitrary points */
+    overflow-wrap: break-word; /* Ensures long words break and wrap */
+  }
+
+  textarea,
+  input[type="text"] {
+    word-wrap: break-word;
+  }
